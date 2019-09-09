@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kenaflow.demoplugin.v1", "kenaflow.demoplugin.v1.csproj", "{2BCCA519-26DD-49C6-8919-131A4D08B178}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_ready_workflow", "_ready_workflow", "{7FFE5FD0-F5EF-4A72-AF67-2D287D2A0A67}"
+	ProjectSection(SolutionItems) = preProject
+		_ready_workflow\_wfconfig.ps1 = _ready_workflow\_wfconfig.ps1
+		_ready_workflow\errorHandling.ps1 = _ready_workflow\errorHandling.ps1
+		_ready_workflow\script.ps1 = _ready_workflow\script.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
