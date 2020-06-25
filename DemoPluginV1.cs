@@ -18,6 +18,7 @@ namespace kenaflow.demoplugin.v1
             Name = "Demo Plugin v1",
             Version = new Version("1.0.0.0"),
             MinKenaflowVersion = new Version("3.0.12.0"),
+            MaxKenaflowVersion = new Version("3.0.9999.0"),
             LogDebug = true,
             SupportedWorkflowTypes = new List<string> { "*" }
         };
